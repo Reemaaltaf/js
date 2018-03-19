@@ -1,0 +1,109 @@
+html {
+  /* background-color: PaleGoldenRod; */
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: Linen;
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: SeaShell;
+  outline: 1px solid FireBrick;
+  width: 12%;
+  min-height: 100%;
+  position: fixed;
+}
+.content {
+  width: 86%;
+  float: right;
+  margin-top: 70px;
+  /* margin-bottom: 80px; */
+}
+.image {
+  max-width: 100%;
+  height: auto;
+  float: right;
+  margin-top: 60px;
+}
+/* Scroll up button */
+
+.goback {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  background: MediumPurple;
+  font-weight: bold;
+  color: black;
+  position: fixed;
+  top: 75px;
+  right: 40px;
+  display: none;
+}
+.goback:hover {
+  background: white;
+}
+h1 {
+  font-size: 30px;
+  /* margin-top: -20px; */
+}
+p {
+  font-size: 18px;
+  word-wrap: normal;
+}
+/* .popup {
+  position: fixed;
+  display: inline-block;
+  width: 80px;
+  height: 10px;
+  padding: 10px;
+  text-align: center;
+  background: MediumPurple;
+  font-weight: bold;
+  color: black;
+}
+.popup:hover {
+  background: white;
+}
+.popup .menu {
+  visibility: hidden;
+}
+.popup .menu::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+} */
+
+/* .popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+} */
+
+/* for animation */
+
+/* @-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
